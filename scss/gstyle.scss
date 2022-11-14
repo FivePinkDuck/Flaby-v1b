@@ -74,11 +74,16 @@ $WhiteColor: #fff;
     }
 }
 
-
 .g-line-footer{
     width: 1170px;
     height: 2px;
     background-color: $line-footer;
+}
+
+.g-button-blue{
+    background-color: $MainColor;
+    color: $WhiteColor;
+    text-transform: uppercase;
 }
 
 //-------------------------------------------------- Общие стили

@@ -61,6 +61,12 @@ body {
   background-color: #dfdfdf;
 }
 
+.g-button-blue {
+  background-color: #66d4f4;
+  color: #fff;
+  text-transform: uppercase;
+}
+
 @font-face {
   font-family: "Museo";
   font-style: normal;
@@ -72,6 +78,7 @@ body {
 body header {
   background-image: url("../img/bg-header.png");
   background-size: cover;
+  margin: 0px;
 }
 body header .nav-head {
   max-width: 1110px;
