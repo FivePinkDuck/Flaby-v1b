@@ -8,6 +8,24 @@
 
 //-----------------------------------------
 
+@media (max-width: 752px){
+    body{
+        header{
+            background-image: url('../img/bg-header-mobile.png');
+            background-size: cover;
+        }
+    }
+}
+
+@media (max-width: 1169px){
+    body{
+        header{
+            background-image: url('../img/bg-header-mobile.png');
+            background-size: cover;
+        }
+    }
+}
+
 body{
 
     color: $TextColor;
@@ -18,24 +36,27 @@ body{
     header{ 
         background-image: url('../img/bg-header.png');
         background-size: cover;
-        margin: 0px;
+        background-repeat: no-repeat;
+        background-color: $SecondaryColor;
 
-        .nav-head{
-            max-width: 1110px;
-            
+        .container{
+            max-width: 1134px;
+            .nav-head{
+
+                .container-fluid{
     
-            .container-fluid{
-    
-                .nav-list{
-                    text-transform: uppercase;
+                    .nav-list{
+                        text-transform: uppercase;
+                    }
                 }
             }
-        }
+    
+            .underline-header{
+                height: 2px;
+                background-color: $WhiteColor;
+                opacity: 0.6;
+            }
 
-        .underline-header{
-            height: 2px;
-            background-color: $WhiteColor;
-            opacity: 0.6;
         }
     }
 }
