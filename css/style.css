@@ -7,6 +7,49 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.first-title {
+  font-family: roboto-slab, serif;
+}
+
+.first-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 400;
+}
+.first-title .upper-text {
+  font-size: 15px;
+  opacity: 0.7;
+}
+.first-title .name-title {
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 5px 0px 10px 0px;
+}
+.first-title .underline-title {
+  width: 30px;
+  height: 2px;
+  background-color: #2eb0ec;
+}
+
+body {
+  color: #494949;
+}
+body header {
+  background-image: url("../img/bg-header.png");
+  background-size: cover;
+}
 body header .nav-head {
   max-width: 1110px;
 }
