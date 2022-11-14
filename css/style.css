@@ -2,11 +2,11 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.first-title {
+.g-first-title {
   font-family: roboto-slab, serif;
 }
 
-.first-title {
+.g-first-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,40 +22,40 @@ body {
           flex-direction: column;
   font-weight: 400;
 }
-.first-title .upper-text {
+.g-first-title .upper-text {
   font-size: 15px;
   opacity: 0.7;
   text-transform: capitalize;
 }
-.first-title .name-title {
+.g-first-title .name-title {
   font-size: 24px;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 5px 0px 10px 0px;
 }
-.first-title .underline-title {
+.g-first-title .underline-title {
   width: 30px;
   height: 2px;
   background-color: #2eb0ec;
 }
 
-.second-title {
+.g-second-title {
   font-weight: 600;
 }
-.second-title .uptext {
+.g-second-title .uptext {
   font-size: 18px;
   opacity: 0.4;
 }
-.second-title .name-heading {
+.g-second-title .name-heading {
   font-size: 32px;
   text-transform: capitalize;
 }
-.second-title .subtext {
+.g-second-title .subtext {
   font-weight: 500;
   font-size: 19px;
 }
 
-.line-footer {
+.g-line-footer {
   width: 1170px;
   height: 2px;
   background-color: #dfdfdf;
