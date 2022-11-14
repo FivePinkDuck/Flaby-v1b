@@ -25,8 +25,22 @@ $WhiteColor: #fff;
 body{
 
     @extend %ff-Raleway;
+    header{ 
+        .nav-head{
+            max-width: 1110px;
+    
+            .container-fluid{
+    
+                .nav-list{
+                    text-transform: uppercase;
+                }
+            }
+        }
 
-    .nav-head{
-        max-width: 1110px;
+        .underline-header{
+            height: 2px;
+            background-color: $WhiteColor;
+            opacity: 0.6;
+        }
     }
 }

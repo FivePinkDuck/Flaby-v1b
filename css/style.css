@@ -7,6 +7,14 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-body .nav-head {
+body header .nav-head {
   max-width: 1110px;
+}
+body header .nav-head .container-fluid .nav-list {
+  text-transform: uppercase;
+}
+body header .underline-header {
+  height: 2px;
+  background-color: #fff;
+  opacity: 0.6;
 }
