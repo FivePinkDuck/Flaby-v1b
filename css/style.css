@@ -3,3 +3,10 @@
   font-style: normal;
   src: url(../font/Museo_Slab_500.otf);
 }
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+body .nav-head {
+  max-width: 1110px;
+}

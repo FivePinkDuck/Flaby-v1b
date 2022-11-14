@@ -4,8 +4,29 @@
     src: url(../font/Museo_Slab_500.otf);
 }
 
+%ff-Raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+%ff-Roboto{
+    font-family: roboto-slab, serif;
+}
+
+//-----------------------------------------
+
 $MainColor: #66d4f4;
 $SecondaryColor: #42a8f6;
 $TextColor: #494949;
 
 $WhiteColor: #fff;
+
+//-----------------------------------------
+
+body{
+
+    @extend %ff-Raleway;
+
+    .nav-head{
+        max-width: 1110px;
+    }
+}
