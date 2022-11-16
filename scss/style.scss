@@ -29,7 +29,10 @@
 //--------------------------------Media---запросы
 
 body{
-    
+
+    a{
+        text-decoration: none;
+    }
 
     header{
         background-image: url('../img/bg-header.png');
@@ -38,18 +41,32 @@ body{
 
         .container{
             max-width: 1134px;
+            position: relative;
 
             .nav-head{
                 .container-fluid{
                     .nav-list{
                         .navbar-nav{
+                            align-items: center;
+                            font-weight: 600;
+
                             .nav-item{
+                                margin: 0px 12px;
                                 .nav-link{
                                     text-transform: uppercase;
-                                    font-weight: 600;
                                     font-size: 17px;
                                     color: $WhiteColor;
                                 }
+                            }
+
+                            .login{
+                                display: inline-block;
+                                padding: 15px 38px;
+                                border-radius: 10px;
+                                background-color: $bg-btn-header;
+                                text-transform: uppercase;
+                                color: $WhiteColor;
+
                             }
                         }
                     }
@@ -60,6 +77,73 @@ body{
                 height: 2px;
                 background-color: $WhiteColor;
                 opacity: 0.6;
+            }
+
+            .row{
+                .contain-header{
+                    position: relative;
+                    overflow: hidden;
+                    color: $WhiteColor;
+
+                    .info-link-header{
+                        margin: 22% 0% 7% 0%;
+                        
+                        h1{
+                            font-size: 40px;
+                            font-weight: 500;
+                            font-family: 'Museo';
+                            text-transform: uppercase;
+                            word-spacing: 10px;
+                        }
+
+                        p{
+                            font-weight: 400;
+                            font-size: 28px;
+
+                            margin: 10px 0px 70px 0px;
+                        }
+
+                        .group-btn{
+                            .btn-header{
+                                display: inline-block;
+                                width: 240px;
+                                height: 80px;
+                                border-radius: 15px;
+
+                                font-weight: 600;
+                                font-size: 20px;
+                                text-align: center;
+
+                                padding-top: 24px;
+                            }
+
+                            .google-btn{
+                                background-color: $WhiteColor;
+                                color: $TextColor;
+                                background-image: url('../img/ico/google-play.png');
+                                background-repeat: no-repeat;
+                                background-position: 25px;
+                                padding-left: 15px;
+                                margin-right: 25px;
+
+                                box-shadow: 0px 5px 15px rgba(#000, 0.1);
+                            }
+
+                            .learn-btn{
+                                color: $WhiteColor;
+                                background-color: $bg-btn-header;
+                            }
+                        }
+                    }
+                    .image-telephone-header{
+                        width: 100vh;
+                        img{
+                            position: absolute;
+                            top: 105px;
+                            right: 1px;
+                        }
+                    }
+                }
             }
 
         }
