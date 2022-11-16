@@ -83,6 +83,9 @@
 body a {
   text-decoration: none;
 }
+body li {
+  list-style: none;
+}
 body header {
   background-image: url("../img/bg-header.png");
   background-size: cover;
@@ -164,11 +167,45 @@ body header .container .row .contain-header .info-link-header .group-btn .learn-
   color: #fff;
   background-color: #4f9edb;
 }
-body header .container .row .contain-header .image-telephone-header {
-  width: 100vh;
-}
 body header .container .row .contain-header .image-telephone-header img {
   position: absolute;
   top: 105px;
   right: 1px;
+}
+body .main .our-service {
+  margin-top: 40px;
+}
+body .main .our-service .list-our-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 80px 0px 0px 0px;
+  padding: 0px;
+}
+body .main .our-service .list-our-service .list__item {
+  color: #494949;
+}
+body .main .our-service .list-our-service .list__item img {
+  max-width: 64px;
+  max-height: 64px;
+}
+body .main .our-service .list-our-service .list__item .name-service {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 35px;
+}
+body .main .our-service .list-our-service .list__item .descrp-service {
+  font-size: 14px;
+  opacity: 0.7;
+}
+body .main .Customization {
+  margin-top: 25%;
 }

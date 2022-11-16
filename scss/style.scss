@@ -33,6 +33,9 @@ body{
     a{
         text-decoration: none;
     }
+    li{
+        list-style: none;
+    }
 
     header{
         background-image: url('../img/bg-header.png');
@@ -136,7 +139,6 @@ body{
                         }
                     }
                     .image-telephone-header{
-                        width: 100vh;
                         img{
                             position: absolute;
                             top: 105px;
@@ -146,6 +148,47 @@ body{
                 }
             }
 
+        }
+    }
+
+    .main{
+        .our-service{
+            margin-top: 40px;
+            .list-our-service{
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                align-items: center;
+
+                margin: 80px 0px 0px 0px;
+                padding: 0px;
+
+                .list__item{
+                    color: $TextColor;
+
+                    img{
+                        max-width: 64px;
+                        max-height: 64px;
+                    }
+
+                    .name-service{
+                        font-size: 18px;
+                        font-weight: 700;
+                        text-transform: capitalize;
+
+                        margin-top: 35px;
+                    }
+
+                    .descrp-service{
+                        font-size: 14px;
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+
+        .Customization{
+            margin-top: 25%;
         }
     }
 }
