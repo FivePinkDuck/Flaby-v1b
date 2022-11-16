@@ -179,9 +179,8 @@ body .main .our-service .list-our-service {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -193,17 +192,17 @@ body .main .our-service .list-our-service .list__item {
   color: #494949;
 }
 body .main .our-service .list-our-service .list__item img {
-  max-width: 64px;
-  max-height: 64px;
+  max-width: 84px;
+  max-height: 84px;
 }
 body .main .our-service .list-our-service .list__item .name-service {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: capitalize;
   margin-top: 35px;
 }
 body .main .our-service .list-our-service .list__item .descrp-service {
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0.7;
 }
 body .main .Customization {

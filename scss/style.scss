@@ -154,9 +154,10 @@ body{
     .main{
         .our-service{
             margin-top: 40px;
+
             .list-our-service{
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 text-align: center;
                 align-items: center;
 
@@ -167,20 +168,20 @@ body{
                     color: $TextColor;
 
                     img{
-                        max-width: 64px;
-                        max-height: 64px;
+                        max-width: 84px;
+                        max-height: 84px;
                     }
 
                     .name-service{
                         font-size: 18px;
-                        font-weight: 700;
+                        font-weight: 600;
                         text-transform: capitalize;
 
                         margin-top: 35px;
                     }
 
                     .descrp-service{
-                        font-size: 14px;
+                        font-size: 16px;
                         opacity: 0.7;
                     }
                 }
