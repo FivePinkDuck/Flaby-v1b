@@ -1,4 +1,4 @@
-@import "gstyle.scss";
+@import 'gstyle.scss';
 
 @font-face {
     font-family: "Museo";
@@ -6,7 +6,7 @@
     src: url(../font/Museo_Slab_500.otf);
 }
 
-//-----------------------------------------
+//--------------------------------Media---запросы
 
 @media (max-width: 752px){
     body{
@@ -26,27 +26,32 @@
     }
 }
 
+//--------------------------------Media---запросы
+
 body{
+    
 
-    color: $TextColor;
-
-    @extend %ff-Raleway;
-
-
-    header{ 
+    header{
         background-image: url('../img/bg-header.png');
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: $SecondaryColor;
 
         .container{
             max-width: 1134px;
-            .nav-head{
 
+            .nav-head{
                 .container-fluid{
-    
                     .nav-list{
-                        text-transform: uppercase;
+                        .navbar-nav{
+                            .nav-item{
+                                .nav-link{
+                                    text-transform: uppercase;
+                                    font-weight: 600;
+                                    font-size: 17px;
+                                    color: $WhiteColor;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -60,5 +65,3 @@ body{
         }
     }
 }
-
-

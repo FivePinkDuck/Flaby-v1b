@@ -4,8 +4,8 @@ $MainColor: #66d4f4;
 $SecondaryColor: #42a8f6;
 $TextColor: #494949;
 
-$underline-title: #2eb0ec;
-$line-footer: #dfdfdf;
+$bg-underline-title: #2eb0ec;
+$bg-line-footer: #dfdfdf;
 
 $WhiteColor: #fff;
 
@@ -18,7 +18,7 @@ $WhiteColor: #fff;
 }
 
 %ff-Roboto{
-    font-family: roboto-slab, serif;
+    font-family: 'roboto-slab', sans-serif;
 }
 
 //-------------------------------------------------- Font Family
@@ -51,7 +51,7 @@ $WhiteColor: #fff;
     .underline-title{
         width: 30px;
         height: 2px;
-        background-color: $underline-title;
+        background-color: $bg-underline-title;
     }
 }
 
@@ -77,7 +77,7 @@ $WhiteColor: #fff;
 .g-line-footer{
     width: 1170px;
     height: 2px;
-    background-color: $line-footer;
+    background-color: $bg-line-footer;
 }
 
 .g-button-blue{
