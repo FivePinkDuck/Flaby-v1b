@@ -63,16 +63,21 @@ $WhiteColor: #fff;
     .uptext{
         font-size: 18px;
         opacity: 0.4;
+        font-size: 22px;
     }
 
     .name-heading{
         font-size: 32px;
         text-transform: capitalize;
+
+        margin: 0px;
+        padding: 5px 0px;
     }
 
     .subtext{
         font-weight: 500;
-        font-size: 19px;
+        font-size: 20px;
+        opacity: 0.6;
     }
 }
 

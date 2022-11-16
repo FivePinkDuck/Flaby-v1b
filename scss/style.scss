@@ -190,6 +190,56 @@ body{
 
         .Customization{
             margin-top: 25%;
+            display: flex;
+            position: relative;
+
+            .img-ipad-iphone{
+                .ipad{
+                    right: 76%;
+                    top: -39%;
+                    position: absolute;
+                }
+
+                .iphone{
+                    bottom: 10%;
+                    left: 13%; 
+                    position: absolute;
+                }
+            }
+
+            .text-customization{
+                position: relative;
+                bottom: 120px;
+
+                .list-customization{
+                    padding: 0px;
+                    margin: 70px 0px 45px 0px;
+
+                    .list__item{
+                        background-image: url('../img/ico/list-point.png');
+                        background-repeat: no-repeat;
+                        background-position: 1px;
+                        padding-left: 35px;
+                        margin: 10px 0px;
+                    }
+                }
+
+                .btn-cstm-section{
+                    display: inline-block;
+                    padding: 13px 39px;
+
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+
+                    background-color: $MainColor;
+                    color: $WhiteColor;
+                    box-shadow: 0px 5px 10px rgba($MainColor, 0.6);
+                    
+
+                    border-radius: 30px;
+                }
+            }
         }
     }
 }

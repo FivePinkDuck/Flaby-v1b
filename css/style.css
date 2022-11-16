@@ -41,14 +41,18 @@
 .g-second-title .uptext {
   font-size: 18px;
   opacity: 0.4;
+  font-size: 22px;
 }
 .g-second-title .name-heading {
   font-size: 32px;
   text-transform: capitalize;
+  margin: 0px;
+  padding: 5px 0px;
 }
 .g-second-title .subtext {
   font-weight: 500;
-  font-size: 19px;
+  font-size: 20px;
+  opacity: 0.6;
 }
 
 .g-line-footer {
@@ -207,4 +211,45 @@ body .main .our-service .list-our-service .list__item .descrp-service {
 }
 body .main .Customization {
   margin-top: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+body .main .Customization .img-ipad-iphone .ipad {
+  right: 76%;
+  top: -39%;
+  position: absolute;
+}
+body .main .Customization .img-ipad-iphone .iphone {
+  bottom: 10%;
+  left: 13%;
+  position: absolute;
+}
+body .main .Customization .text-customization {
+  position: relative;
+  bottom: 120px;
+}
+body .main .Customization .text-customization .list-customization {
+  padding: 0px;
+  margin: 70px 0px 45px 0px;
+}
+body .main .Customization .text-customization .list-customization .list__item {
+  background-image: url("../img/ico/list-point.png");
+  background-repeat: no-repeat;
+  background-position: 1px;
+  padding-left: 35px;
+  margin: 10px 0px;
+}
+body .main .Customization .text-customization .btn-cstm-section {
+  display: inline-block;
+  padding: 13px 39px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #66d4f4;
+  color: #fff;
+  -webkit-box-shadow: 0px 5px 10px rgba(102, 212, 244, 0.6);
+          box-shadow: 0px 5px 10px rgba(102, 212, 244, 0.6);
+  border-radius: 30px;
 }
